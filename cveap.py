@@ -35,7 +35,8 @@ def mail(text, msg):
         print("邮件发送成功")
     except Exception as e:
         print("邮件发送失败: ", e)
-
+        
+# pushplus推送
 def pushplus(text, msg):
     url = "https://pushplus.hxtrip.com/send"
     data = {"token": "xxxxxxxxxxxx",#这里放pushplus的token
